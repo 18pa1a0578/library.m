@@ -1,0 +1,22 @@
+body{
+    background-image: url('bg1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#formg{
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#div2{
+    margin-left: 40px;
+    font-family: 'Raleway';
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+    text-align:start;
+}

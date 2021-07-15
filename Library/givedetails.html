@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Fill Details</title>
+    <script type="text/javascript" src="backend.js">
+    </script>
+    <link rel="stylesheet" href="givedetailcss.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-res.css">
+</head>
+<nav>
+    <ul class="navi" style="width: 100%; overflow: hidden;">
+        <li><a href='#form1'>Give Details</a></li>
+        <li><a href='#form2'>Get a Book</a></li>
+        <li><a href='#form3'>Return a Book</a></li>
+        <li style="float: right; padding-right: 20px;"><a href='getdetails.html' target="_blank">Get User Info</a></li>
+        
+        
+    </ul>
+</nav>
+<body>
+
+</body>
+<div id="deatil" style="height: 2400px;" >
+    <div id="form1" style="height:800px; text-align: center; padding: 100px; padding-top: 270px;">
+        <form >
+            <h3>Name </h3> <input placeholder="Harsha" type="text" id="name" name="cname" maxlength=50 autofocus><br>
+           <h3>Contact number</h3>  <input placeholder='TEN DIGITS' type="number" id="phonenumber" name="pnumber"><br>
+           <h3>Aadhaar number</h3>   <input placeholder="TWELVE DIGITS" type="number" id="aadhaar" name="anumber"><br>
+            <button id="submit">submit</button>
+        </form>
+    </div>
+    
+    <div id="getbook" style="height: 800px; text-align: center; ">
+        <form id="form2" style="padding: 100px; padding-top: 300px;"> 
+            <h3>Your Name</h3>  <input placeholder="Harsha" type="text" id="yourname" name="yname"><br>
+            <h3> Book Code</h3>  <input placeholder="D123@#" title="Code of the book you want to take" type="text" id="bookname" name="bname"><br>
+            <button id="takebook">TAKE BOOK</button>
+        </form>
+    </div>
+    <div id="returnbook" style="height: 800px; text-align: center;">
+        <form id="form3" style="padding: 100px; padding-top: 300px;"> 
+            <h3>Your Name</h3>  <input placeholder="Harsha" type="text" id="yoursname" name="ysname"><br>
+            <h3> Book Code</h3>  <input placeholder="T786$" title="Code of the book you want to returnbook" type="text" id="booksname" name="bsname"><br>
+            <button id="returnbook">RETURN BOOK</button>
+        </form>
+    </div>
+</div>
+</html>

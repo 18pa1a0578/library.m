@@ -1,0 +1,17 @@
+body{
+    background-image: url('home.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+#welcome{
+    font-size: 78px;
+    color: rgb(28 162 191);
+    padding: 70px;
+    padding-top: 30px;
+    text-shadow: 2px 8px #c4d7e8;
+}
